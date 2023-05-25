@@ -8,6 +8,8 @@
 
 The goal of this project is to build a text editor that runs in the browser as a Progressive Web Application (PWA). The text editor will support offline functionality and implement data persistence techniques using IndexedDB as a fallback option.
 
+![Screenshot (74)](https://github.com/APereyro/JATE/assets/124737955/567b5b24-8e87-4db7-b7d5-213845dc8903)
+
 ## Table of Contents
 
 - [Installation](#installation)
