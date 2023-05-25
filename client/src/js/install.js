@@ -14,14 +14,8 @@ butInstall.addEventListener("click", async () => {
     return;
   }
   promptEvent.prompt();
-  const result = await promptEvent.userChoice;
-  if (result.outcome === "accepted") {
-    console.log("User accepted the install prompt");
-  } else {
-    console.log("User dismissed the install prompt");
-  }
   window.deferredPrompt = null;
-  butInstall.setAttribute("hidden", "true");
+  butInstall.setAttribute("hidden", true);
 });
 
 // TODO: Add an handler for the `appinstalled` event
